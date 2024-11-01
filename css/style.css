@@ -1,0 +1,34 @@
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+.img {
+  height: 300px;
+  cursor: pointer;
+}
+
+.recipe {
+  display: none;
+}
+.recipe._active {
+  display: block;
+}
+
+.moving-panel {
+  display: block;
+  height: 300px;
+  max-width: 400px;
+  background-color: aquamarine;
+  padding: 5px;
+}
+.moving-panel .moving-panel__title {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
+.moving-panel .moving-panel__body {
+  height: 220px;
+  width: 100%;
+  background-color: rosybrown;
+}

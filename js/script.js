@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelector(".img"),c=document.querySelector(".recipe");e&&c&&(console.log("я кнопка & рецепт"),e.addEventListener("click",(function(){console.log("click"),c.classList.toggle("_active")})))}));
